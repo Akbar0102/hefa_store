@@ -1,76 +1,128 @@
 body {
-    font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 .navbar {
-    background-color: #171717;
+  background-color: #171717;
+  border-bottom: 1px solid #333;
 }
 
 .nav-item {
-    margin-right: 20px;
-    font-weight: 200;
+  margin-right: 20px;
+  font-weight: 200;
 }
 
 .nav-item.active a {
-    color: #F9B234 !important;
-    font-weight: 600;
+  color: #f9b234 !important;
+  font-weight: 600;
 }
 
 .nav-link span {
-    color: #F9B234 !important;
-    font-weight: 600;
+  color: #f9b234 !important;
+  font-weight: 600;
 }
 
 /* Carousel */
 .carousel {
-    height: 450px;
-    background-color: #171717;
-    color: white
+  height: 450px;
+  background-color: #171717;
+  color: white;
 }
 
 .carousel h1 {
-    font-family: 'Lora';
+  font-family: "Lora";
 }
 
 .carousel p {
-    font-weight: 200;
+  font-weight: 200;
 }
 
 /* End carousel */
 
 .features h3,
 .designer h3 {
-    font-family: 'Lora';
-    color: #1B2690;
-    font-weight: bold;
+  font-family: "Lora";
+  color: #1b2690;
+  font-weight: bold;
 }
 
 .features p,
 .designer p,
 footer p {
-    font-weight: 200;
-    color: #B7B7B7;
+  font-weight: 200;
+  color: #b7b7b7;
 }
 
 .figure h5 {
-    color: #171717;
+  color: #171717;
 }
 
 .figure-img {
-    position: relative;
+  position: relative;
 }
 
 .figure-img a {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 8px;
-    background-color: rgba(0, 0, 0, 0.7);
-    opacity: 0;
-    transition: opacity 0.3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
 .figure-img:hover a {
-    opacity: 1;
+  opacity: 1;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  margin-top: 100px;
+}
+
+.product-thumbnail-container {
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  padding: 8px;
+  margin: auto;
+  transform: translateY(-45px);
+}
+
+.product-thumbnail-container a:hover {
+  text-decoration: none;
+}
+
+.btn-product {
+  margin: 50px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eaeaef;
+}
+
+.btn-product .btn {
+  display: block;
+  margin: 10px 0;
+}
+
+.designed-by h5 {
+  font-size: 14px;
+  font-weight: 200;
+  color: #b7b7b7;
+  margin-bottom: 20px;
+}
+
+.designed-by h4 {
+  font-size: 18px;
+  color: #171717;
+}
+
+.designed-by p {
+  font-size: 14px;
+  font-weight: 200;
+  color: #171717;
+}
+
+.designed-by p span {
+  color: #b7b7b7;
 }
